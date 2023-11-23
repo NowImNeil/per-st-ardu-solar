@@ -70,17 +70,17 @@ void loop() {
 
     if (serY.read() != limitAngleY && !isRotated) {
         
-       // Serial.println(serY.read());
+
         writeAngleY(limitAngleY, limitAngleYd, movQY, isRotated);
 
     } else if (serY.read() == limitAngleY && isRotated) {
  
-       // Serial.println(serY.read());
+      
         writeAngleY(limitAngleY, limitAngleYd, movQY, isRotated);
 
     } else if (serY.read() == limitAngleY && !isRotated && serX.read() != limitAngleX)  {
        
-       // Serial.println(serX.read());
+       
         
         writeAngleX(limitAngleX, movQX);
 
