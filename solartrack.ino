@@ -86,12 +86,10 @@ void loop() {
 
   }
   }
-  // Serial.println("isRotated:");
-  //Serial.println(isRotated);
+  
   Serial.println(serX.read());
   Serial.println(serY.read());
 
- //lightDir = getLightDir(fValue, bValue);
   
   Serial.print("Light: ");
   Serial.print(lux);

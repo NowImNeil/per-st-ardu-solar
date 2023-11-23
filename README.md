@@ -1,1 +1,6 @@
-move solar panel acording to the sun cycle
+
+FUNCTIONALITY:
+
+move solar panel acording to the sun cycle.
+
+END
